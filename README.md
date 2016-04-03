@@ -12,3 +12,8 @@ Main goals are to:
  - learn some nodejs, git and github
 
 
+Requires:
+  Nodejs
+    engine.io
+    forever
+ 
