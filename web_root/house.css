@@ -1,0 +1,24 @@
+html {
+  height: 100%;
+}
+
+body {
+	height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background: #a90329; /* Old browsers */
+  background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
+  background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%);
+  background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 );
+
+  color: #ffffff;
+  font-family: 'Open sans';
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(http://house/fonts/OpenSans-Regular.ttf) format("truetype");
+}
+
+
