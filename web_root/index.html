@@ -4,6 +4,20 @@
     <link rel="stylesheet" type="text/css" href="house.css">
   </head>
 
+  <script src="http://house/engine.io.js"></script>
+  <script>
+    var socket = new eio.Socket('ws://house');
+    socket.on('open', function() {
+      socket.on('message', function(data) {
+        console.log("Client received message: " + data);
+      });
+
+      socket.on('close', function() {
+        console.log("Client closing connection");
+      });
+    });
+  </script>
+
   <body>
     <h1>House</h1>
     <img src="/images/house.jpg" />
